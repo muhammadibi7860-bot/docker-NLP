@@ -3,6 +3,7 @@ nltk==3.6.5
 
 # 02 named_entity_recognition
 spacy==3.7.2
+en-core-web-sm==3.7.1
 
 # 03 text_classification
 scikit-learn==1.3.2
@@ -13,3 +14,5 @@ bert-extractive-summarizer==0.10.1
 # 05 language_translation
 googletrans==4.0.0-rc1
 torch==2.3.0
+
+

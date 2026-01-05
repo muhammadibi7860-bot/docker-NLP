@@ -39,6 +39,6 @@ jobs:
           context: .
           push: true
           tags: |
-            muhammadibi7860/docker-nlp:latest
+            muhammadibrahim7860/docker-nlp:latest
             muhammadibi7860/docker-nlp:${{ github.sha }}
 

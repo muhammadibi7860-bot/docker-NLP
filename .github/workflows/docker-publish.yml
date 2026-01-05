@@ -23,7 +23,6 @@ jobs:
             echo "ERROR: DOCKERHUB_TOKEN secret is missing/empty"
             exit 1
           fi
-          echo "Secrets look present (values not shown)."
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -42,3 +41,4 @@ jobs:
           tags: |
             muhammadibi7860/docker-nlp:latest
             muhammadibi7860/docker-nlp:${{ github.sha }}
+

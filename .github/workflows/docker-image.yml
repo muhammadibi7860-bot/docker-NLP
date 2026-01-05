@@ -28,5 +28,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/docker-nlp:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/docker-nlp:${{ github.sha }}
+  muhammadibi7860/docker-nlp:latest
+  muhammadibi7860/docker-nlp:${{ github.sha }}
